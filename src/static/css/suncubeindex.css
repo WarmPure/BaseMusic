@@ -1,0 +1,19 @@
+.cube-index-list-content {
+  background-color: rgb(255, 255, 255);
+  color: #4b4b4b;
+  font-size: 0.4rem;
+}
+
+.cube-index-list-nav {
+  padding: 20px 0;
+  border-radius: 10px;
+  background: rgba(167, 167, 167, 1);
+}
+
+.cube-index-list-nav>ul>li.active {
+  color: #f1edff !important;
+}
+
+.cube-index-list-anchor {
+  padding: 10px 0 10px 20px !important;
+}

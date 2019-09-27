@@ -1,0 +1,36 @@
+.input_div {
+    display: flex;
+    height: 44px;
+    align-items: center;
+    padding-left: 15px;
+    background-color: white;
+}
+.input_check {
+  width: 18px;
+  padding-right: 12px;
+}
+.span_num {
+  display: inline-block;
+  white-space: nowrap; 
+  margin-right: 15px;
+}
+.car_num {
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  height: 24px;
+  width: 70px;
+  border: 1px solid rgb(243, 243, 243);
+  border-radius: 2px;
+}
+.pull_img {
+  width: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.field {
+  padding: 0 15px 0 0;
+}
+.out_date {
+  margin-left: 29px;
+}

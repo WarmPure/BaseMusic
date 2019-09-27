@@ -1,0 +1,54 @@
+/*Steps 步骤条 色值*/
+.van-step--finish .van-step__circle, .van-step--finish .van-step__line {
+    background-color: #3a89fa !important;
+    /*margin-left: 17px;*/
+}
+
+/*Steps 步骤条 字体大小*/
+.van-step--horizontal .van-step__title {
+    font-size: 12px !important;
+    text-align: center;
+}
+/*Steps 步骤条 字体颜色*/
+.van-step--finish {
+    color: #666666 !important;
+}
+
+/*Steps 步骤条 调整右侧间距过窄*/
+.van-steps--horizontal .van-steps__items {
+
+    /*margin: 0 0 0.1rem !important;*/
+    /*position: unset !important;*/
+    padding-bottom: 0 !important;
+}
+
+/*.van-step--horizontal:last-child .van-step__circle-container {*/
+     /*left: unset !important;*/
+     /*right: 0 !important;*/
+/*}*/
+
+.van-steps--horizontal {
+    padding: 0 5px !important;
+}
+
+.van-step--horizontal.van-step--process .van-icon {
+    font-size: 0.31rem !important;
+}
+
+.van-step__circle {
+    width: 4px !important;
+    height: 4px !important;
+    border-radius: 50%;
+}
+
+.van-step--horizontal .van-step__line {
+    height: 1px !important;
+}
+
+.van-step--horizontal:last-child .van-step__circle-container {
+    right: -0.28rem !important;
+}
+
+.van-step--horizontal:last-child {
+    right: 0.1rem !important;
+}

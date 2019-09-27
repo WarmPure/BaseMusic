@@ -1,0 +1,25 @@
+.table-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
+.item-table {
+  width: 100%;
+}
+.detail-button {
+  width: 130px;
+  color: rgb(31, 144, 230);
+  border-color: rgb(31, 144, 230);
+  margin-top: 15px;
+}
+td {
+  border: 1px solid rgb(243, 243, 243);
+  padding: 15px;
+}
+td:nth-child(2n) {
+  color: rgb(102, 102, 102);
+}
+.cell {
+  padding: 0px;
+}
